@@ -3,8 +3,8 @@ import MovieStars from 'components/MovieStars';
 import './styles.css';
 function MovieScore() {
 
-    const score = 3.5;
-    const count = 13; 
+    const score = 4.9;
+    const count = 139; 
 
     return (
         <div className="dsmovie-score-container">
