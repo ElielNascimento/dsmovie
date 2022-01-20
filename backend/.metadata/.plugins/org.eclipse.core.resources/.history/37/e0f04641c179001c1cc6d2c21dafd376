@@ -1,0 +1,30 @@
+package com.devsuperior.dsmovie.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_score")
+public class Score {
+	
+	private Double value;
+	
+	public Score () {
+	}
+
+	public Score(Double value) {
+		super();
+		this.value = value;
+	}
+
+	public Double getValue() {
+		return value;
+	}
+
+	public void setValue(Double value) {
+		this.value = value;
+	}
+	
+	
+
+}
