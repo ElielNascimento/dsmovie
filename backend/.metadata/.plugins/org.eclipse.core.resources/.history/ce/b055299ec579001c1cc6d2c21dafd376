@@ -1,0 +1,8 @@
+package com.devsuperior.dsmovie.repositories;
+
+import org.springframework.stereotype.Repository;
+
+
+public class MovieRepository extends JpaRepository {
+
+}
